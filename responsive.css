@@ -1,0 +1,73 @@
+/* ==========================================================================
+   AgroSense AI - Responsive Layout Enhancements
+   Mobile, Tablet, and Desktop Breakpoints
+   ========================================================================== */
+
+@media (max-width: 1080px) {
+  .two-col-grid {
+    grid-template-columns: 1fr;
+  }
+  .charts-row {
+    grid-template-columns: 1fr;
+  }
+  .dt-diagrams-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .kpi-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .form-row-2, .form-row-3 {
+    grid-template-columns: 1fr;
+  }
+  .crops-grid {
+    grid-template-columns: 1fr;
+  }
+  .main-wrapper {
+    padding: 16px;
+  }
+  .card {
+    padding: 18px;
+  }
+  .report-paper {
+    padding: 20px;
+  }
+  .dt-hero-card {
+    padding: 20px;
+  }
+  .dt-hero-card h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .kpi-container {
+    grid-template-columns: 1fr;
+  }
+  .brand-text h1 {
+    font-size: 1.15rem;
+  }
+  .crop-metrics-grid {
+    grid-template-columns: 1fr;
+  }
+  .yield-stat-banner {
+    grid-template-columns: 1fr;
+  }
+  .market-stats-row {
+    grid-template-columns: 1fr;
+  }
+  .rh-right {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
